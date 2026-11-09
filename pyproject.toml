@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dume"
+version = "0.1.0"
+description = "DUM-E RAG chatbot backend"
+requires-python = ">=3.11"
+dependencies = [
+    "python-dotenv",
+    "chromadb",
+    "sentence-transformers",
+    "sumy",
+    "nltk",
+    "openai",
+    "pypdf",
+    "rich",
+    "streamlit",
+    "fastapi",
+    "python-multipart",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

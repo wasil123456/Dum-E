@@ -1,0 +1,15 @@
+.venv
+__pycache__
+.env
+data/chroma
+data/cache.sqlite
+data/users
+data/raw
+data/kb_version.json
+*.sqlite
+*.db
+logs
+.pytest_cache
+*.pyc
+frontend/node_modules
+frontend/dist

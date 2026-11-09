@@ -1,0 +1,8 @@
+python-dotenv
+chromadb
+sentence-transformers
+sumy
+nltk
+openai
+pypdf
+rich
